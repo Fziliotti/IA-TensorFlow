@@ -26,7 +26,6 @@ function setup() {
   env.setRange(1.2, 0);
 
   wave = new p5.Oscillator();
-
   wave.setType("sine");
   wave.start();
   wave.freq(440);
