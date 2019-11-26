@@ -36,8 +36,8 @@ print(model.evaluate(x_test, y_test))
 # numero da imagem que se deseja prever (até indice 9999)
 indexImage = 100
 
-# desenha imagem com matplotlib
-plt.imshow(x_test[indexImage])
-
 # imprime a predicao feita
 print("Predicao:", np.argmax(model.predict(np.array([x_test[indexImage]]))))
+
+# desenha imagem com matplotlib
+plt.imshow(x_test[indexImage])

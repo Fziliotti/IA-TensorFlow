@@ -35,3 +35,7 @@ A rede neural vai ser treinada para reconhecer dígitos escritos à mão. A base
     [0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0]
     [0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0    0   0   0   0   0   0   0   0   0   0]
 ```
+
+## Exemplo da matriz y_train e y_test
+
+São os números propriamente ditos, são as saídas esperadas ao tentar prever o número.

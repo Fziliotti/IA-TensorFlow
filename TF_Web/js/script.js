@@ -177,7 +177,9 @@ async function run() {
 
   // Converte os dados para uma forma que o tensorFlow entende internamente
   const tensorData = convertToTensor(data);
+
   const { inputs, labels } = tensorData;
+
   await trainModel(model, inputs, labels);
 
   // Testa o modelo
