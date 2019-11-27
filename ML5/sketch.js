@@ -13,13 +13,17 @@ let state = "collection";
 let notes = {
   C: 261.6256,
   D: 293.6648,
-  E: 329.6276
+  E: 329.6276,
+  F: 349.228241,
+  G: 391.995392,
+  A: 440,
+  B: 493.883301
 };
 
 let env, wave;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(600, 600);
 
   env = new p5.Envelope();
   env.setADSR(0.05, 0.1, 0.5, 1);
